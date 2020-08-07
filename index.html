@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Hatice ÖZER || HTML Sayfası</title>
+        <meta name= "keyword" content="Python, Java, Javascript">
+        <meta name= "description" content="Hatice ÖZER || HTML Sayfası">
+        <!-- Fonts Google -->
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+        <link rel="stylesheet" href="css/global.css">
+        <link rel="stylesheet" href="css/main.css">
+        <!-- Tablet ve Mobil için  --> 
+        <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+        <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+       
+	</head>
+	<body>
+        <header class="bg-dark-blue">
+            <div class="container">
+                 <nav id= "navbar">
+                <h1 class="heading-small">Hatice ÖZER</h1>
+
+                <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#training">Eğitimler</a></li>
+                    <li><a href="#courses">Kurslar</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
+            </div>
+           
+        </header>
+
+        <section id="home">
+            <img
+                src="images/resim1.jpg" 
+                alt="Hatice ÖZER"
+            />
+            <div class="name text-center">
+                <h2 class="heading-big">Hatice ÖZER</h2>
+                <p>Computer Engineer</p>
+            </div>
+
+            <a href="#courses" class="btn btn-primary">Kurslara Git</a>
+
+        </section>
+
+
+        <section id="training" class="bg-dark-blue" >
+            <h3 class="text-center heading-medium">Eğitimler</h3>
+            <div class="items">
+                <article class="item">
+                     <i class="fa fa-pencil-alt" ></i>
+                    <h3>Sınıf İçi Eğitimler</h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, rem!
+                    </p>                       
+                </article>
+                 <article class="item">
+                     <i class="fa fa-pencil-alt" ></i>
+                    <h3>Online İçerikler</h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, rem!
+                    </p>                       
+                </article>
+                 <article class="item">
+                     <i class="fa fa-pencil-alt" ></i>
+                    <h3>Konferanslar</h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, rem!
+                    </p>                       
+                </article>
+            </div>
+            
+        </section>
+
+
+        <section id="courses">
+            <h3 class="text-center heading-medium"> Kurslar </h3>
+                <div class="courses">
+                    <div class="container">
+                    <!-- Course 1 -->
+                    <div class="course">
+                        <div class="course-image">
+                            <img src="images/python.jpg" alt="Python">
+                            <span>ÜCRETSİZ</span>
+                        </div>
+                        <div class="course-info">
+                            <div class="title">
+                                Yeni Başlayanlar İçin Python
+                            </div>
+                            <div class="description">Komple Python Eğitimi || 2020-58 Saat</div>
+                            <div class="instructor">Hatice ÖZER</div>
+                            <div class="rating">4.5 (5000 Oylama)</div>
+                        </div>
+                    </div>
+                    <!-- Course 2 -->
+                    <div class="course">
+                        <div class="course-image">
+                            <img src="images/java.jpg" alt="Java">
+                            <span>ÜCRETSİZ</span>
+                        </div>
+                        <div class="course-info">
+                            <div class="title">
+                                Yeni Başlayanlar İçin Java
+                            </div>
+                            <div class="description">Komple Java Eğitimi || 2020-90 Saat</div>
+                            <div class="instructor">Hatice ÖZER</div>
+                            <div class="rating">4.7 (3000 Oylama)</div>
+                        </div>
+                    </div>
+                    <!-- Course 3 -->
+                    <div class="course">
+                        <div class="course-image">
+                            <img src="images/JavaScript.jpg" alt="Javascript">
+                            <span>ÜCRETSİZ</span>
+                        </div>
+                        <div class="course-info">
+                            <div class="title">
+                                Yeni Başlayanlar İçin Javascript
+                            </div>
+                            <div class="description">Komple Javascript Eğitimi || 2020-80 Saat</div>
+                            <div class="instructor">Hatice ÖZER</div>
+                            <div class="rating">4.3 (8000 Oylama)</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+
+        <footer id="contact" class="bg-dark-blue">
+           
+            <div class="contact-form">
+                 <form>
+
+                    <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+                    <div class="form-group">
+                      <label for="name">İsim</label>
+                      <input 
+                            type="text"
+                            name="name" 
+                            id="name" 
+                            class="form-control"
+                            placeholder="isim" >
+                    </div>
+
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input 
+                            type="text"
+                            name="email" 
+                            id="email" 
+                            class="form-control"
+                            placeholder="email" >
+                    </div>
+
+                    <div class="form-group">
+                      <label for="message">Mesaj</label>
+                      <textarea 
+                            name="message" 
+                            id="message" 
+                            class="form-control" 
+                            rows="5"
+                            placeholder="Mesajınız..."
+                        ></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-block">Gönder</button>
+                </form>
+                <ul>
+                    <li><a href="" class="fab fa-facebook"></a></li>
+                    <li><a href="" class="fab fa-twitter"></a></li>
+                    <li><a href="" class="fab fa-instagram"></a></li>
+                </ul>
+            </div>
+            
+
+        </footer>
+
+	</body>
+</html>
